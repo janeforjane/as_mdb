@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>webTmp4Example</title>
+</head>
+<body>
+
+<form method="get" id="form1" action="getMessageServlet">
+
+    <fieldset style="border:1px #ffb0dd solid;">
+        <legend><span style="font-family:Monotype Corsiva;color:#cb6ac6;font-size:18px">Enter your info</span> </legend>
+
+        <div>
+            <label>Enter something:</label>
+
+            <input name="name" type="user-string" required autofocus>
+        </div><br>
+        <div>
+            <input name="enter" type="submit" value="Enter">
+            <input name="reset" type="reset" value="Clear">
+        </div>
+    </fieldset>
+</form>
+<form method="get" id="form2" action="returnStringMessagesServlet">
+
+    <fieldset style="border:1px #ffb0dd solid;">
+        <legend><span style="font-family:Monotype Corsiva;color:#cb6ac6;font-size:18px"></span> </legend>
+
+        <div>
+            <label>If you want to get all strings:</label>
+        </div><br>
+        <div>
+            <input name="enter" type="submit" value="Get all strings">
+        </div>
+    </fieldset>
+</form>
+<form method="get" id="form3" action="returnNumMessagesServlet">
+
+    <fieldset style="border:1px #ffb0dd solid;">
+        <legend><span style="font-family:Monotype Corsiva;color:#cb6ac6;font-size:18px"></span> </legend>
+
+        <div>
+            <label>If you want to get sum of num:</label>
+        </div><br>
+        <div>
+            <input name="enter" type="submit" value="Get sum">
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
